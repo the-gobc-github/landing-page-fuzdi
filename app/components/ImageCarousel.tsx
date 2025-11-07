@@ -86,7 +86,7 @@ const ImageCarousel = forwardRef<ImageCarouselRef, {}>((props, ref) => {
     const displayImage = isScrolling ? scrollImages[currentScrollIndex] : currentImage;
 
     return (
-        <div className="flex flex-col items-center space-y-4 pt-24">
+        <div className="flex flex-col items-center space-y-4">
             {/* Simple Image Display */}
             <div className="relative h-96 w-136 max-w-2xl rounded-lg overflow-hidden">
                 <Image
